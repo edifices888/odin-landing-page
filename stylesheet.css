@@ -2,6 +2,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -51,9 +55,17 @@ a:active {
     padding: 5px;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
 .herotext {
     background-color: #1F2937;
-
+    color: 
+    display: flex;
+    margin: 1em;
+    padding: 20px;
 }
 
 .heroimage {
