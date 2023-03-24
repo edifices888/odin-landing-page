@@ -1,0 +1,3 @@
+# landing-page
+
+This is the 2nd project with The Odin Project. I will be applying what I've learned with basic CSS and flexbox. A lot will be learned through google searches, on top of what I learned from The Odin Project. I will supplement my knowledge with MDN, youtube, and other sources. I already started to try some basic coding, and forgot to create my repo and clone it. So I just did that. I will them save and add commit messages. Honestly, this is like learning a language and being asked to work with that language ASAP. Probably the best way to have something cemented in one's subconcious. Practice. Practice. Practice. 
