@@ -97,28 +97,28 @@ a:active {
     white-space: nowrap;
   }
   
-  .button-3:focus:not(:focus-visible):not(.focus-visible) {
+  .signup:focus:not(:focus-visible):not(.focus-visible) {
     box-shadow: none;
     outline: none;
   }
   
-  .button-3:hover {
+  .signup:hover {
     background-color: #4280d1;
   }
   
-  .button-3:focus {
+  .signup:focus {
     box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
     outline: none;
   }
   
-  .button-3:disabled {
+  .signup:disabled {
     background-color: #125ec2;
     border-color: rgba(27, 31, 35, .1);
     color: rgba(255, 255, 255, .8);
     cursor: default;
   }
   
-  .button-3:active {
+  .signup:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
   }
@@ -137,9 +137,10 @@ a:active {
 .heroimage {
     content: 100px;
     margin: 1em;
-    height: 200px
-    width: 1000px;
-    padding: 150px;
+    height: 200px;
+    width: 750px;
+    padding: 50px 100px;
     background-color: #6D747D;
     color: white;
+    align-self: stretch;
 }
