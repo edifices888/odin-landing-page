@@ -219,9 +219,24 @@ a:active {
 }
 
 .section3 {
-  background-color: #E5E7EB;
+  background-color: white;
   color: #1F2937;
   text-align: center;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 50px 150px;
+}
+
+.picture {
+  flex: 1;
+  border-color: #3882F6;
+  border-radius: 5px;
+  border-size: 1px;
 }
 
 .quote {
@@ -242,7 +257,6 @@ a:active {
 }
 
 .author {
-    font-size: size;
     align-self: flex-end;
     flex: 1;
 }
@@ -253,10 +267,9 @@ a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid rgba(27, 31, 35, .15);
+    border: 1px solid rgba(233, 235, 238, 0.15);
     border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    color: #fff;
+    box-shadow: rgba(233, 236, 240, 0.1) 0 1px 0;
     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 14px;
     font-weight: 600;
@@ -274,7 +287,7 @@ a:active {
   background-color: #3882F6;
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .CTA {
