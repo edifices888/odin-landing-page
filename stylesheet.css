@@ -208,8 +208,6 @@ a:active {
     color: #F9FAF8;
     font-weight: bold;
 }
-
-
 .heroimage {
     content: 100px;
     margin: 1em;
@@ -218,4 +216,77 @@ a:active {
     padding: 50px 150px;
     background-color: #6D747D;
     color: white;
+}
+
+.section3 {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    flex: 1;
+    align-items: center;
+}
+
+.author {
+    font-size: size;
+    align-self: flex-end;
+    flex: 1;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 3px 30px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.banner {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between
+}
+
+.CTA {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.CTAhead {
+
+}
+
+.CTAtext {
+
 }
