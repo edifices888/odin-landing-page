@@ -297,9 +297,11 @@ a:active {
 }
 
 .CTAhead {
-
+  font-weight: 300;
+  font-style: bold;
+  color: white;
 }
 
 .CTAtext {
-
+  color: white;
 }
