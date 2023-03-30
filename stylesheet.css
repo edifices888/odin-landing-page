@@ -134,6 +134,7 @@ a:active {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .herotext {
@@ -141,6 +142,7 @@ a:active {
     color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -224,12 +226,22 @@ a:active {
   text-align: center;
 }
 
+.block2 {
+  background-color: white;
+}
+
+.block3 {
+  background-color: #E5E7EB;
+} 
+
 .pictures {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  padding: 50px 150px;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
 }
 
 .picture {
@@ -246,6 +258,9 @@ a:active {
   align-items: center;
   background-color: #E5E7EB;
   color: #1F2937;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
 }
 
 .testimonial {
@@ -283,11 +298,21 @@ a:active {
     white-space: nowrap;
 }
 
+.block4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner {
   background-color: #3882F6;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
 }
 
 .CTA {
@@ -304,4 +329,9 @@ a:active {
 
 .CTAtext {
   color: white;
+}
+
+footer {
+  text-align: center;
+  color: #F9FAF8;
 }
