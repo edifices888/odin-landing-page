@@ -236,12 +236,19 @@ a:active {
 
 .pictures {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   margin: auto;
   padding: 10px;
-  width: 75%;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: auto;
+}
+
+.caption {
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .picture {
@@ -249,6 +256,9 @@ a:active {
   border-color: #3882F6;
   border-radius: 5px;
   border: 3px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 .quote {
@@ -259,7 +269,7 @@ a:active {
   background-color: #E5E7EB;
   color: #1F2937;
   margin: auto;
-  padding: 10px;
+  padding: 100px;
   width: 50%;
 }
 
@@ -310,8 +320,7 @@ a:active {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px;
   padding: 40px;
   border-radius: 6px;
 }
