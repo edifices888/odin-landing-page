@@ -135,6 +135,10 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 1000px;
+    margin-top: 75px;
+    margin-bottom: 100px;
 }
 
 .herotext {
@@ -224,10 +228,13 @@ a:active {
   background-color: white;
   color: #1F2937;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .block2 {
   background-color: white;
+  padding-bottom: 50px;
 }
 
 .block3 {
@@ -249,16 +256,20 @@ a:active {
 .caption {
   flex: 1;
   flex-wrap: wrap;
+  width: 200px;
 }
 
 .picture {
   flex: 1;
-  border-color: #3882F6;
-  border-radius: 5px;
-  border: 3px;
   flex-direction: column;
   flex-wrap: wrap;
   width: 200px;
+}
+
+img {
+  border-color: #3882F6;
+  border-radius: 10px;
+  border-style: solid;
 }
 
 .quote {
@@ -320,7 +331,7 @@ a:active {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 100px;
   padding: 40px;
   border-radius: 6px;
 }
