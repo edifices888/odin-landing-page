@@ -114,10 +114,12 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #125ec2;
 }
 
 a:hover { 
     text-decoration: none;
+    color: greenyellow;
 }
 
 a:active {
@@ -256,6 +258,7 @@ a:active {
 .caption {
   flex: 1;
   flex-wrap: wrap;
+  text-align: center;
   width: 200px;
 }
 
